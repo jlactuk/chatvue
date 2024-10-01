@@ -10,6 +10,6 @@ const props = defineProps({
 <style scoped>
     p {
         text-align: left;
-        padding: 5px 10px;
+        padding: 5px 15px;
     }
 </style>
