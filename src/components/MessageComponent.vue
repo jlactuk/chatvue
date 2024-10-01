@@ -24,29 +24,34 @@
         display: grid;
         grid-template-rows: 20px 1fr;
     }
+
     p {
         margin: 0;
         padding: 0;
     }
+
     .author,
     .text {
         text-align: left;
     }
+
     .text {
         border-top: 1px solid #ccc;
         height: 100%;
         padding: 10px 5px;
     }
+
     .time {
         position: absolute;
         bottom: 0;
         right: 20px;
     }
+
     .self {
         background: #ccc;
- 
         align-self: end;
     }
+
     .self > .text {
         border-top: 1px solid #FFF;
     }

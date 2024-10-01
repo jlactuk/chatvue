@@ -3,7 +3,6 @@
         <input type="text" v-model="messageData" @keypress.enter.ctrl="SendMessage">
         <button @click="SendMessage">Send message</button>
     </article>
-
 </template>
 
 <script setup>

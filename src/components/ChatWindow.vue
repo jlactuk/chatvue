@@ -7,7 +7,7 @@
             </TransitionGroup>
         </section>
         <InputForm @sendMessage="(message) => RenderMessage(message)"/>
-</section>
+    </section>
 </template>
 <script setup>
 import HeaderWindow from "./HeaderWindowComponent.vue"
